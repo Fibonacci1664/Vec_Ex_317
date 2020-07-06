@@ -30,6 +30,7 @@ int main()
 			// The toupper expression needs to be cast to a char, as it normally rtns an int, and so the complier complains about data loss converting from int -> char otherwise.
 			c = (char)std::toupper(c);
 		}
+
 	}
 
 	// Print the vector of words.
